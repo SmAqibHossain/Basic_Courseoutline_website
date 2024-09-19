@@ -1,0 +1,141 @@
+
+body{
+    background-color: #c3ddda  ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.head{
+    /*background-color: rgb(70, 70, 92);*/
+    text-align: center;
+    padding-left: 15%;
+    font-size: x-large;
+
+}
+
+.parent{
+    /*background-color: aqua;*/
+    display: flex;
+
+}
+
+.weeks{
+    /*background-color: brown;*/
+    
+    width: 10%;
+    /*border: 3px solid green;*/
+    padding-top:10px;
+    padding-left: 10px;
+
+    margin-left: 5%;
+    border-right: 1px solid;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+.topics{
+    /*background-color: blue;*/
+    padding-top: 0px;
+    text-align: center;
+    width: 90%;
+
+}
+
+.titles{
+    /*background-color: blueviolet;*/
+}
+
+.items{
+    /*background-color: burlywood;*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 10px;
+    
+    /*padding-left: 25%;*/
+
+    
+}
+.slides{
+    background-color: #3a87ad;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 50px;
+    margin: 5px;
+    cursor: pointer;
+
+    transition: 1s;
+}
+
+.starter{
+    /*background-color: #e87f33;*/
+    background-color: #f2e5bc;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 50px;
+    margin: 5px;
+    cursor: pointer;
+
+    transition: 1s;
+}
+.checkoff{
+    background-color: #779ea3;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 50px;
+    margin: 5px;
+    cursor: pointer;
+
+    transition: 1s;
+}
+.solution{
+    background-color: #e87f33;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 50px;
+    margin: 5px;
+    cursor: pointer;
+
+    transition: 1s;
+}
+.slides:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+
+    /*https://www.youtube.com/watch?v=yS9OZyyY4TE*/
+}
+.starter:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+
+    /*https://www.youtube.com/watch?v=yS9OZyyY4TE*/
+}
+.checkoff:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+
+    /*https://www.youtube.com/watch?v=yS9OZyyY4TE*/
+}
+.solution:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+
+    /*https://www.youtube.com/watch?v=yS9OZyyY4TE*/
+}
+
+#final{
+    transition: 1s;
+}
+#final:hover{
+    
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+    background-color: rgb(158, 0, 0);
+
+    
+}
